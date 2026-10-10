@@ -1,0 +1,28 @@
+# Default: the API alone, using the in-memory store.
+#   docker compose up --build
+#
+# With MongoDB Atlas Vector Search running locally (the official Atlas Local image
+# supports $vectorSearch and $search, no cloud account needed):
+#   docker compose --profile mongo up --build
+#   then set EKA_VECTOR_STORE=mongo and EKA_MONGO_URI=mongodb://mongo:27017/?directConnection=true
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: .env
+        required: false
+    restart: unless-stopped
+
+  mongo:
+    image: mongodb/mongodb-atlas-local:latest
+    profiles: ["mongo"]
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:

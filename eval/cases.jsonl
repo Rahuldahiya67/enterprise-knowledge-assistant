@@ -1,0 +1,30 @@
+{"id": "hr-01", "question": "How many days of paid annual leave do permanent employees get?", "expected_sources": ["leave_policy.md"], "key_facts": ["18 days"]}
+{"id": "hr-02", "question": "How much unused annual leave can I carry forward to next year?", "expected_sources": ["leave_policy.md"], "key_facts": ["10 days"]}
+{"id": "hr-03", "question": "When do I need a medical certificate for sick leave?", "expected_sources": ["leave_policy.md"], "key_facts": ["more than 2 consecutive days"]}
+{"id": "hr-04", "question": "How long is paternity leave?", "expected_sources": ["leave_policy.md"], "key_facts": ["10 working days"]}
+{"id": "hr-05", "question": "How many days of leave can be encashed when I resign?", "expected_sources": ["leave_policy.md"], "key_facts": ["15 days"]}
+{"id": "hr-06", "question": "How far in advance must I apply for annual leave of three days or more?", "expected_sources": ["leave_policy.md"], "key_facts": ["7 days in advance"]}
+{"id": "hr-07", "question": "How many days a week can corporate staff work from home?", "expected_sources": ["remote_work_policy.md"], "key_facts": ["2 days per week"]}
+{"id": "hr-08", "question": "What are the core hours for remote employees?", "expected_sources": ["remote_work_policy.md"], "key_facts": ["10:00 and 16:00"]}
+{"id": "hr-09", "question": "Is there an internet allowance for remote work and how much is it?", "expected_sources": ["remote_work_policy.md"], "key_facts": ["Rs 1,000"]}
+{"id": "fin-01", "question": "What is the daily allowance when travelling to a metro city?", "expected_sources": ["travel_expense_policy.md"], "key_facts": ["Rs 2,500"]}
+{"id": "fin-02", "question": "What is the hotel limit per night outside metro cities?", "expected_sources": ["travel_expense_policy.md"], "key_facts": ["Rs 4,000"]}
+{"id": "fin-03", "question": "Within how many days should expense claims be submitted after a trip?", "expected_sources": ["travel_expense_policy.md"], "key_facts": ["15 days"]}
+{"id": "fin-04", "question": "Who can fly business class?", "expected_sources": ["travel_expense_policy.md"], "key_facts": ["M3"]}
+{"id": "fin-05", "question": "Who approves a purchase requisition above Rs 5,00,000?", "expected_sources": ["procurement_sop.md"], "key_facts": ["CFO"]}
+{"id": "fin-06", "question": "How many vendor quotations are needed for purchases above Rs 1,00,000?", "expected_sources": ["procurement_sop.md"], "key_facts": ["3 written quotations"]}
+{"id": "fin-07", "question": "What documents does a new vendor have to submit for onboarding?", "expected_sources": ["procurement_sop.md"], "key_facts": ["GST registration", "PAN"]}
+{"id": "it-01", "question": "What is the minimum password length?", "expected_sources": ["information_security_policy.md"], "key_facts": ["12 characters"]}
+{"id": "it-02", "question": "How quickly do I have to report a stolen laptop?", "expected_sources": ["information_security_policy.md"], "key_facts": ["2 hours"]}
+{"id": "it-03", "question": "How often are laptops replaced?", "expected_sources": ["it_asset_request_guide.md"], "key_facts": ["4 years"]}
+{"id": "it-04", "question": "How long does it take to get a standard laptop after approval?", "expected_sources": ["it_asset_request_guide.md"], "key_facts": ["5 working days"]}
+{"id": "ops-01", "question": "What time is the next day's dispatch plan frozen?", "expected_sources": ["dispatch_sop.md"], "key_facts": ["17:30"]}
+{"id": "ops-02", "question": "Which documents are needed for every dispatch?", "expected_sources": ["dispatch_sop.md"], "key_facts": ["e-way bill", "lorry receipt"]}
+{"id": "ops-03", "question": "Within how many days must the proof of delivery be uploaded?", "expected_sources": ["dispatch_sop.md"], "key_facts": ["3 days"]}
+{"id": "qa-01", "question": "How soon does the material review board review a non-conformance report?", "expected_sources": ["nonconformance_procedure.md"], "key_facts": ["48 hours"]}
+{"id": "qa-02", "question": "When must a supplier send the root cause analysis after a SCAR?", "expected_sources": ["nonconformance_procedure.md"], "key_facts": ["7 days"]}
+{"id": "filter-01", "question": "How many days of annual leave do I get?", "expected_sources": ["leave_policy.md"], "key_facts": ["18 days"], "department": "HR"}
+{"id": "neg-01", "question": "What is the company's policy on stock options for employees?", "answerable": false}
+{"id": "neg-02", "question": "Who is the CEO of the company?", "answerable": false}
+{"id": "neg-03", "question": "What is the cafeteria menu on Fridays?", "answerable": false}
+{"id": "neg-04", "question": "How do I apply for a company car lease?", "answerable": false}

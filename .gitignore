@@ -5,3 +5,5 @@ __pycache__/
 .pytest_cache/
 data/index/
 *.egg-info/
+data/uploads/
+reports/eval_results.json
