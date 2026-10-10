@@ -7,3 +7,5 @@ data/index/
 *.egg-info/
 data/uploads/
 reports/eval_results.json
+build/
+dist/
